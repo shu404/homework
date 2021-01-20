@@ -13,7 +13,7 @@ import java.util.List;
 public class _4FormServer extends JFrame {
     private JButton start,stop;
     private JLabel msg;
-    private ServerSocket ss;
+    private ServerSocket s;
     private List<Socket> sockets = new ArrayList<>(); //保存所有已连接的客户端socket
 
     public _4FormServer(){
